@@ -1,0 +1,45 @@
+{
+	TopologyGroup:{
+		Topology:{
+			name:shenzhen,
+			nodes:{
+				node:{
+					ip:10.250.1.2,
+					platform:ubuntu
+				},
+				node:{
+					ip:10.250.1.3,
+					platform:ubuntu
+				}
+			}
+		},
+		Topology:{
+		name:peking,
+			nodes:{
+				node:{
+					ip:10.250.2.2
+				},
+				node:{
+					ip:10.250.2.3
+				}
+			}
+		},
+			Topology:{
+			name:shanghai,
+			nodes[10]:{
+				platform:windows
+			}
+		}
+	},
+	LinkGroup:{
+		Link:{
+			bidirectional:[ shenzhen,peking ],
+			rate:10 mbit
+			},
+		Link:{
+			source:shanghai,
+			sink:shenzhen,
+			rate:100 mbit
+		}
+	}
+}
