@@ -17,10 +17,13 @@
 		name:peking,
 			nodes:{
 				node:{
-					ip:10.250.2.2
+					ip:10.250.2.2,
+					firewall:"true",
+					user:root
 				},
 				node:{
-					ip:10.250.2.3
+					ip:10.250.2.3,
+					user:admin
 				}
 			}
 		},

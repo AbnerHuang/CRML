@@ -1,6 +1,6 @@
 grammar CRON;
 
-cron    : '{' topologygroup+ ',' linkgroup+ '}'
+cron    : '{' topologygroup (',' topologygroup)* ',' linkgroup (',' linkgroup)* '}'
         ;
 
 topologygroup
@@ -11,7 +11,7 @@ topology: Topology ':' '{' topologycontent (',' topologycontent)* '}'
         ;
 
 topologycontent
-        : Name ':' TEXT                             # topologyname
+        : Name ':' ID                             # topologyname
         | Nodes ':' nodes                           # topologynode
         | Nodes'[' NUM ']' ':' '{' property '}'     # topologynodearray
         ;
@@ -32,7 +32,9 @@ ipv4addr
         ;
 
 property
-        : Platform ':' TEXT
+        : Platform ':' ID
+        | Firewall ':' '"' ('true' | 'false' )'"'
+        | User ':' ID
         ;
 
 linkgroup
@@ -42,9 +44,9 @@ linkgroup
 link    : Link ':' '{' linkcontent (',' linkcontent) '}' ;
 
 linkcontent
-        : Bidirectional ':' '[' TEXT ',' TEXT ']'   # bidirectional
-        | Source ':' TEXT ',' Sink ':' TEXT         # sourcesink
-        | Rate ':' NUM Mbit                         # rate
+        : Bidirectional ':' '[' ID ',' ID ']'   # bidirectional
+        | Source ':' ID ',' Sink ':' ID         # sourcesink
+        | Rate ':' NUM Mbit                     # rate
         ;
 
 TopologyGroup
@@ -67,6 +69,12 @@ Platform
         : [Pp][Ll][Aa][Tt][Ff][Oo][Rr][Mm]
         ;
 
+Firewall
+        : [Ff][Ii][Rr][Ee][Ww][Aa][Ll][Ll]
+        ;
+
+User    : [Uu][Ss][Ee][Rr];
+
 LinkGroup
         : [Ll][Ii][Nn][Kk][Gg][Rr][Oo][Uu][Pp]
         ;
@@ -79,17 +87,22 @@ Bidirectional
 Source  : [Ss][Oo][Uu][Rr][Cc][Ee] ;
 
 Sink    : [Ss][Ii][Nn][Kk] ;
-                                       
-Rate    : [Rr][Aa][Tt][Ee] ;           
+
+Rate    : [Rr][Aa][Tt][Ee] ;
 
 Mbit    : [Mm][Bb][Ii][Tt] ;
+
+ID      :  LETTER (LETTER|[0-9]|'_')*
+        ;
+
+LETTER  : [a-zA-Z];
 
 NUM
         : '0' | [1-9] [0-9]*
         ;
 
-TEXT
-        :  ~[ 0-9,.{}:\][\n\r"]+
-        ;
+//TEXT
+//        :  ~[ 0-9,.{}:\][\n\r"]+
+//        ;
 
 WS      : [ \t\n\r]+ -> skip;
