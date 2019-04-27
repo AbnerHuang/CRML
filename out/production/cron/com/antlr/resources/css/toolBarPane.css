@@ -1,0 +1,23 @@
+.vbox {
+    -fx-min-height: 1600;
+    -fx-max-height: 1600;
+    -fx-pref-height: 1600;
+    -fx-pref-width: 200;
+    -fx-max-width: 200;
+    -fx-min-width: 200;
+    -fx-background-color: #161C29;
+    -fx-border-color: #2e8b57;
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+}
+
+.pane {
+    -fx-background-color: #161C29;
+    -fx-min-height: 1600;
+    -fx-max-height: 1600;
+    -fx-pref-height: 1600;
+    -fx-pref-width: 200;
+    -fx-max-width: 200;
+    -fx-min-width: 200;
+}

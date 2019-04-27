@@ -1,0 +1,18 @@
+.menu-bar{
+    -fx-background-color: #161C29;
+
+}
+
+.menu-bar .label {
+    -fx-font-family: "DejaVu Sans Mono";
+    -fx-text-fill: #ffffff;
+}
+
+.menu:hover {
+    -fx-background-color: none;
+
+}
+
+.menu-bar .label:pressed {
+    -fx-background-color: #DFEADE;
+}

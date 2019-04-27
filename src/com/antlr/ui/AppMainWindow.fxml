@@ -10,16 +10,22 @@
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.antlr.ui.controller.AppMainWindowController"
             prefHeight="400.0" prefWidth="600.0">
+<!--    <prefHeight>@com.antlr.ui.ConstantUI.MAINWINDOW_HEIGHT</prefHeight>-->
     <left>
         <VBox style="-fx-background-color: #71CBD3"
               maxWidth="30" maxHeight="800" minHeight="800" minWidth="30">
-
+            <Button text="Demo"/>
+            <Button text="try"/>
         </VBox>
     </left>
     <center>
 
     </center>
     <top>
-        <MenuBar></MenuBar>
+        <MenuBar>
+            <Menu text="File" style="-fx-font-family: Monospaced">
+                <MenuItem text="File"/>
+            </Menu>
+        </MenuBar>
     </top>
 </BorderPane>

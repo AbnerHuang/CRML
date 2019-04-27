@@ -2,27 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2228520f-e256-45f0-b7d5-a1d43f2c45d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/antlr/ui/ConstantUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/antlr/ui/controller/AppMainWindowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/antlr/ui/panel/AppMainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/css/cronMenuBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/css/iconButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/css/toolBarPane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/images/demoDisabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/images/demoEnabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/images/mainDisabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/images/mainEnabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/images/neoDisabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/images/neoEnabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/images/simDisabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/resources/images/simEnabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/ui/IconButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/ui/ToolBarPane.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/ui/panel/CRONMenuBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/ui/panel/GrammarPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/ui/panel/NeoPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/ui/panel/SimPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/antlr/ui/panel/ToolBarPane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/UI/AppMainWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/UI/ConstantUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/UI/Panel/ParserPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/util/CRON.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/util/CRON.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/util/CRON.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/util/CRON.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/util/CRONBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/util/CRONBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/util/CRONBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/util/CRONBaseVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/util/CRONLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/util/CRONLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/util/CRONLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/util/CRONLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/util/CRONLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/util/CRONLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/util/CRONListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/util/CRONListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/util/CRONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/util/CRONParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/antlr/util/CRONVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/util/CRONVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cron.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/APP_ICON.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/resources/images/APP_ICON.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/colorcard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/resources/images/colorcard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cron/com/antlr/ui/AppMainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cron/com/antlr/ui/AppMainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cron/com/antlr/ui/ConstantUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cron/com/antlr/ui/ConstantUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cron/com/antlr/ui/panel/AppMainWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/antlr/ui/AppMainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/ui/AppMainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/antlr/ui/ConstantUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/ui/ConstantUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/antlr/ui/panel/AppMainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antlr/ui/AppMainWindow.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,40 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/antlr/util/CRONBaseVisitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/AppMainWindow.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/panel/ToolBarPane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/panel/AppMainWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="321">
+              <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,12 +69,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/ConstantUI.java">
+        <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/ToolBarPane.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="240">
+              <caret line="10" column="95" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="95" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/images/colorcard.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/images/demoDisabled.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/AppMainWindow.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/css/toolBarPane.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/css/iconButton.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/images/simEnabled.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -105,8 +126,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
+        <option value="CSS File" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -146,16 +168,32 @@
         <option value="$PROJECT_DIR$/src/com/antlr/UI/ConstantUI.java" />
         <option value="$PROJECT_DIR$/src/com/antlr/UI/AppMainWindow.java" />
         <option value="$PROJECT_DIR$/src/com/antlr/UI/test.fxml" />
-        <option value="$PROJECT_DIR$/src/com/antlr/ui/ConstantUI.java" />
         <option value="$PROJECT_DIR$/src/com/antlr/ui/panel/AppMainWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/panel/toolBarVBox.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/iconButton.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/panel/CRONMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/panel/CRONMenuBar.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/resources/css/cronMenuBar.css" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/ConstantUI.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/resources/css/iconButton.css" />
         <option value="$PROJECT_DIR$/src/com/antlr/ui/AppMainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/IconButton.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/panel/GrammarPane.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/panel/NeoPane.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/panel/SimPane.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/panel/ToolBarVbox.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/resources/css/toolBarVBox.css" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/AppMainWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/antlr/resources/css/toolBarPane.css" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/ToolBarPane.fxml" />
+        <option value="$PROJECT_DIR$/src/com/antlr/ui/panel/ToolBarPane.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="width" value="1600" />
-    <option name="height" value="900" />
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -163,6 +201,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,7 +225,38 @@
               <item name="cron" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="antlr" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cron" type="b2602c69:ProjectViewProjectNode" />
@@ -200,7 +270,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,20 +281,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/demoFX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/antlr/resources/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/antlr/resources/images" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/antlr/resources/images" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,11 +314,11 @@
   </component>
   <component name="RunManager">
     <configuration name="AppMainWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.antlr.ui.panel.AppMainWindow" />
+      <option name="MAIN_CLASS_NAME" value="com.antlr.ui.AppMainWindow" />
       <module name="cron" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.antlr.ui.panel.*" />
+          <option name="PATTERN" value="com.antlr.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,11 +362,15 @@
       <workItem from="1556192536509" duration="749000" />
       <workItem from="1556193410336" duration="764000" />
       <workItem from="1556195258593" duration="471000" />
+      <workItem from="1556243826753" duration="688000" />
+      <workItem from="1556333791031" duration="1182000" />
+      <workItem from="1556337048949" duration="10494000" />
+      <workItem from="1556356044839" duration="6133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44849000" />
+    <option name="totallyTimeSpent" value="63346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,9 +382,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1600" height="900" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32684824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28893661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -316,8 +392,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3288948" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32964602" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32853982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,8 +404,8 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32964602" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="13" weight="0.96681416" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.2721239" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.2721239" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="14" weight="0.96681416" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,22 +465,9 @@
     <entry file="file://$PROJECT_DIR$/test.cron" />
     <entry file="file://$PROJECT_DIR$/CRON.g4" />
     <entry file="file://$PROJECT_DIR$/images/71CBD3-4A86BF-292A83.png" />
-    <entry file="file://$PROJECT_DIR$/images/colorcard.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/antlr/UI/Panel/ParserPanel.java" />
     <entry file="file://$PROJECT_DIR$/src/com/antlr/UI/AppMainWindow.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/controller/AppMainWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+    <entry file="jar:///usr/java/jdk1.8.0_211/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/antlr/util/CRONBaseVisitor.java">
@@ -414,28 +477,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/panel/AppMainWindow.java">
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/images/demoEnabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/images/APP_ICON.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/css/cronMenuBar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="384">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/images/mainEnabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/panel/CRONMenuBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/controller/AppMainWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/panel/GrammarPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/panel/NeoPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/panel/SimPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/ConstantUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="258">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/IconButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/AppMainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#2012#2013#0" expanded="true" />
+            <element signature="e#2096#2097#0" expanded="true" />
+            <element signature="e#2129#2130#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2201#2202#0" expanded="true" />
+            <element signature="e#2247#2248#0" expanded="true" />
+            <element signature="e#2276#2277#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/images/simEnabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/css/iconButton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/AppMainWindow.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="249">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/images/demoDisabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/images/colorcard.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/ToolBarPane.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/resources/css/toolBarPane.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/antlr/ui/panel/ToolBarPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
