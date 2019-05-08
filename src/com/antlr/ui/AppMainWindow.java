@@ -1,6 +1,7 @@
 package com.antlr.ui;
 
-import com.antlr.ui.panel.*;
+import com.antlr.parse.ParsingResult;
+import com.antlr.ui.pane.*;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
@@ -18,6 +19,8 @@ public class AppMainWindow extends Application {
     private static GrammarPane grammarPane;
     private static NeoPane neoPane;
     private static SimPane simPane;
+
+    private static ParsingResult parsingResult;
 
 
     @Override
@@ -42,16 +45,6 @@ public class AppMainWindow extends Application {
         mainPane = new Pane();
 
         initializeMainPane();
-
-//        VBox demoVbox = new VBox();
-//        demoVbox.getStyleClass().addAll(ConstantUI.CSS_DIR+"/toolBarPane.css");
-//        appPane.setBottom(demoVbox);
-
-
-//        Image demoEnabled = new Image("com/antlr/resources/images/demoDisabled.png");
-//        Image demoDisabled = new Image("com/antlr/resources/images/demoEnabled.png");
-//        IconButton demoButton = new IconButton(demoEnabled,demoDisabled,"demo");
-//        appPane.setCenter(demoButton);
 
         appPane.setTop(cronMenuBar);
         appPane.setLeft(toolBarPane);
@@ -81,6 +74,14 @@ public class AppMainWindow extends Application {
 
     public static SimPane getSimPane(){
         return simPane;
+    }
+
+    public static ParsingResult getParsingResult(){
+        return parsingResult;
+    }
+
+    public static void setParsingResult(ParsingResult parseResult){
+        parsingResult = parseResult;
     }
 
     public static void main(String[] args) {

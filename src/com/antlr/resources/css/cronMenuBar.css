@@ -4,7 +4,7 @@
 }
 
 .menu-bar .label {
-    -fx-font-family: "DejaVu Sans Mono";
+    -fx-font-family: Monospaced;
     -fx-text-fill: #ffffff;
 }
 

@@ -7,9 +7,9 @@
 <?import javafx.scene.layout.*?>
 
 <Pane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.antlr.ui.panel.ToolBarPane" style="-fx-background-color: #161C29"
-            prefHeight="1000.0" prefWidth="200.0">
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.antlr.ui.pane.ToolBarPane" style="-fx-background-color: #161C29"
+      prefHeight="1000.0" prefWidth="200.0">
 <VBox style="-fx-background-color: #161c29">
     <Button text="first"/>
     <Button text="second"/>

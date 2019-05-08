@@ -1,0 +1,23 @@
+.tab-pane {
+    -fx-background-color: white;
+}
+
+.tree-cell {
+    -fx-font-family: Monospaced;
+}
+
+.tree-cell:selected {
+    -fx-background-color: #161C29;
+}
+
+.tab {
+    -fx-font-family: "Noto Sans Mono CJK SC Regular";
+}
+
+.menu-item {
+    -fx-font-family: Monospaced;
+}
+
+.menu-item:selected {
+    -fx-background-color: #161C29;
+}

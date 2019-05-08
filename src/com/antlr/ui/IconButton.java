@@ -5,6 +5,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Border;
+import javafx.scene.text.Font;
 
 public class IconButton extends Button {
 
@@ -28,11 +29,11 @@ public class IconButton extends Button {
     }
 
     private void initialize(){
+        this.getStylesheets().add("com/antlr/resources/css/iconButton.css");
 
     }
 
     private void setUp(){
-        this.getStylesheets().add("com/antlr/resources/css/iconButton.css");
 
         this.setGraphic(new ImageView(disabledImage));
         this.setText(tip);

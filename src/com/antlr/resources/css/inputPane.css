@@ -1,0 +1,78 @@
+.radio-button {
+    -fx-font-family: "Noto Sans Mono CJK SC Regular";
+    -fx-font-size: 16;
+    -fx-cursor: pointer;
+    -fx-faint-focus-color:white,transparent,white,transparent;
+}
+
+.radio-button .radio{
+    -fx-border-width     : 1px   ;
+    -fx-border-color     : #000  ;
+    -fx-background-color : white ;
+    -fx-background-image : null  ;
+    -fx-border-radius    : 15px  ;
+}
+
+.radio-button .dot {
+    -fx-background-radius: 4px;
+    -fx-padding: 4px;
+    -fx-selected-color: #161C29;
+}
+
+
+.radio-button :hover{
+    -fx-opacity: 0.8;
+}
+
+.radio-button:focused{
+
+}
+
+.text-field {
+    -fx-pref-width: 200;
+    -fx-highlight-fill: rgba(0,0,0,0);
+    -fx-highlight-text-fill: rgba(0,0,0,0);
+    -fx-border-color: #161C29;
+    -fx-border-radius: 0px;
+    -fx-font-family: Monospaced;
+    -fx-font-size: 10;
+}
+
+.text-field:focused{
+    -fx-background-color: #ffffff;
+    -fx-highlight-fill: #161C29;
+    /*outline:none;*/
+}
+
+.text-field:selected{
+}
+
+.text-input:focused{
+    -fx-highlight-text-fill: #ffffff;
+}
+
+#fileIconButton{
+    -fx-background-color: none;
+    -fx-padding: 0,0,0,0;
+}
+
+#fileIconButton:hover {
+    -fx-opacity: 0.4;
+}
+
+.text-area{
+    -fx-font-family: Monospaced;
+    -fx-font-size: 16;
+    -fx-border-color: #161C29;
+    -fx-border-radius:0px;
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area:focused{
+    -fx-background-color: transparent,white,transparent,white;
+}

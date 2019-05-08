@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="batik-1.11">
+    <CLASSES>
+      <root url="file:///usr/java/jdk1.8.0_211/lib/batik-1.11" />
+      <root url="file:///usr/java/jdk1.8.0_211/lib/batik-1.11/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///usr/java/jdk1.8.0_211/lib/batik-1.11/samples/tests/resources/java/sources" />
+    </SOURCES>
+    <jarDirectory url="file:///usr/java/jdk1.8.0_211/lib/batik-1.11" recursive="false" />
+    <jarDirectory url="file:///usr/java/jdk1.8.0_211/lib/batik-1.11/lib" recursive="false" />
+  </library>
+</component>
